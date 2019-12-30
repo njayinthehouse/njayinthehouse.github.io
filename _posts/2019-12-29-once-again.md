@@ -1,7 +1,6 @@
 ---
 layout: post
-title: "NJay Launches Site"
-date: 2014-04-30
+title: "And Here We Go Again"
+date: 2019-12-31
 ---
-
-Well. Finally got around to putting this old website together. Neat thing about it - powered by [Jekyll](http://jekyllrb.com) and I can use Markdown to author my posts. It actually is a lot easier than I thought it was going to be.
+I've wanted to maintain a blog for a while. I need a way to organize my work. This is an attempt to do both. Let's see how it goes.
