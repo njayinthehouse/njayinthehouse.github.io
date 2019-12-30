@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "And Here We Go Again"
 date: 2019-12-31
 ---
