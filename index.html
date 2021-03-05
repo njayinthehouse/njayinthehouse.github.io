@@ -3,5 +3,77 @@ layout: default
 title: Nitin John Raj
 ---
 <div class="blurb">
-	<h1>Hi there, I'm Nitin!</h1>
+	<h1>Nitin John Raj</h1>
+  I don't like writing for people. It forces me to apply premature standards
+  to my writing process, and increases the inertia it takes to put something
+  out on a public platform. But I need to get over it now, so here I am.
+
+  <h2>About Me</h2>
+  I'm a graduate student researcher in programming languages and type theory.
+  I work with Prof. Tiark Rompf at Purdue University. I'm in the midst of a
+  conscious process of re-discovery right now, so I'm trying a lot of new
+  things (or at least trying to try). I picked up a guitar. I've started 
+  looking into Dungeons and Dragons. I've set some *fleeting long-term
+  goals* for myself professionally. In a couple of months, I'll see what sticks
+  and what's worth writing about, and I'll drop a note here.
+
+  I like the mental models for planning that the phrase *fleeting long-term 
+  goals* motivates. It allows me to remain focused on a larger goal which
+  prevents meaningless meandering; yet I'm always aware *and accepting* of the 
+  uncertainty that the assumed goal is indeed what I want. However, that is a 
+  question that is best answered while in pursuit and not idly on from a 
+  distance.
+
+  <h2>Research Interests</h2>
+  I'm currently focused on discovering the metatheory of Dependent Object 
+  Types. Concretely, I'm working on a translation from expressions in System
+  D<:> to the Calculus of Constructions extended with (inconsistent) sigma
+  types. We hope to show that this translation preserves well-typedness and 
+  reductions. The primary motivation is to show that abstract types in System
+  D<:> can be interpreted as these inconsistent sigma types in CoC. 
+  <h3>Questions about DOT</h3>
+  <ul> 
+    <li> <b>How do we interpret abstract types in DOT?</b> Probably, as 
+        inconsistent sigma types. It is well known that you can interpret 
+        abstract types as existential types, but which
+        kind of dependent tuple type can represent abstract types in DOT?
+        (Strong) Sigma types allow us to project the individual components of 
+        a dependent tuple, but are not suitable here due to DOT's 
+        impredicativity. (Weak) Existential types are, but they don't permit
+        large eliminations.
+
+    <li> <b>Can we use DOT extended with full dependent types as a proof
+        assistant?</b> 
+        This is challenging, because DOT is impredicative. Posts like
+        <a href="https://github.com/FStarLang/FStar/issues/360">this one</a>
+        seem to hint that we don't necessarily get inconsistency from 
+        impredicative polymorphism + large eliminations if you do not have
+        excluded middle. However, I think impredicative polymorphism + 
+        unrestricted large eliminations is already enough to lead to 
+        inconsistency, though I'm not sure how to argue this formally yet.
+        Related work: <a href="https://drops.dagstuhl.de/opus/volltexte/2020/13073/">
+        Is Impredicativity Implicitly Implicit</a>
+
+    <li> <b>Parametricity for DOT?</b>
+
+  </ul>
+
+  <h3>Other Questions</h3>
+  <ul>
+    <li> <b>What are the challenges in modeling TT in TT?</b> This is difficult
+      due to Godelian reasons, but we've had a lot of success with this 
+      nonetheless.
+    <li> <b>How does reflection in Type Theory relate to reflection in a 
+      rational agent?</b>
+    <li> <b>What is it that logical induction promises to do?</b>
+      <li> <b>How do we effectively leverage impredicativity in proof assistants?</b>
+  </ul>
+
+  <h3>Other (Distant?) Goals</h3>
+  <ol>
+    <li> Learn LMS. It seems useful in your research group.
+    <li> Learn Rust. Implement a compiler in it. You need a good systems 
+      programming language under your belt.
+    <li> Implement your own open-world simulator. Inspiration: Dwarf Fortress
+  </ol>
 </div><!-- /.blurb -->
