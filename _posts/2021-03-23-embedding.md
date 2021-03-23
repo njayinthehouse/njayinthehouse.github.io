@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Natural Language Semantics from a Noob Perspective
-date: 2021-03-13
+date: 2021-03-23
 ---
 
 TODO: References
