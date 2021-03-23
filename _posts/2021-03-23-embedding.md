@@ -64,8 +64,8 @@ My Baby Understanding of Machine Learning and Distributed Semantics[^4]
 
 When machine learning joins the party, the party gets wild, but everyone gets
 blackout drunk and only distinctly feel it was wild in the aftermath, and maybe 
-infer so from some pictures. There exist powerful machine learning techniques
-[^5] that embed words most commonly in vector spaces (though not always!), but
+infer so from some pictures. There exist powerful machine learning techniques[^5] 
+that embed words most commonly in vector spaces (though not always!), but
 while they seem to work very well, and everyone can see they work well, how
 they work is still poorly understood[^6]. I don't like algorithms that are not
 well-understood. Black-box solutions make me uneasy, and feel like cheating.
